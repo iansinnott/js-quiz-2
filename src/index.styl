@@ -1,0 +1,94 @@
+helvetica = 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+blue = #448AF7
+gray = #efefef
+
+body
+  font-family helvetica
+
+label
+  display block
+  line-height 1.5
+  font-size 20px
+  vertical-align middle
+
+.input-group
+  text-align left
+
+.container
+  max-width 600px
+  width 100%
+  background gray
+  margin 0 auto
+  border-radius 3px
+
+.copy
+  text-align center
+
+input[type=radio]
+  font-size 30px
+  margin 0
+  margin-right 10px
+
+#quiz
+  padding 30px
+  position relative
+  margin-top 50px
+
+.progress
+  position absolute
+  top 10px
+  right 10px
+  font-size 20px
+  color darken(gray, 20%)
+
+fieldset
+  outline none
+  border none
+  margin-top 30px
+  overflow hidden
+  padding 0
+
+.next-ok .next
+.back-ok .back
+.reset
+  cursor pointer
+  background blue
+  color white
+  background blue
+  &:hover
+    background darken(blue, 20%)
+
+button
+  cursor default
+  background darken(gray, 20%)
+  outline none
+  border none
+  color gray
+  padding 10px 20px
+  font-size 20px
+  border-radius 3px
+  text-transform uppercase
+  &:hover
+    background darken(gray, 20%)
+
+.reset
+  display none
+
+h1
+  font-size 70px
+
+.game-over
+  text-align center
+  .reset
+    display block
+    width 100%
+  .next
+  .back
+    display none
+
+
+.back
+  float left
+.next
+  float right

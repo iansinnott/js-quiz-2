@@ -1,0 +1,96 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+label {
+  display: block;
+  line-height: 1.5;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.input-group {
+  text-align: left;
+}
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: #efefef;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+.copy {
+  text-align: center;
+}
+input[type=radio] {
+  font-size: 30px;
+  margin: 0;
+  margin-right: 10px;
+}
+#quiz {
+  padding: 30px;
+  position: relative;
+  margin-top: 50px;
+}
+.progress {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #bfbfbf;
+}
+fieldset {
+  outline: none;
+  border: none;
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 0;
+}
+.next-ok .next,
+.back-ok .back,
+.reset {
+  cursor: pointer;
+  background: #448af7;
+  color: #fff;
+  background: #448af7;
+}
+.next-ok .next:hover,
+.back-ok .back:hover,
+.reset:hover {
+  background: #0a65f2;
+}
+button {
+  cursor: default;
+  background: #bfbfbf;
+  outline: none;
+  border: none;
+  color: #efefef;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+button:hover {
+  background: #bfbfbf;
+}
+.reset {
+  display: none;
+}
+h1 {
+  font-size: 70px;
+}
+.game-over {
+  text-align: center;
+}
+.game-over .reset {
+  display: block;
+  width: 100%;
+}
+.game-over .next,
+.game-over .back {
+  display: none;
+}
+.back {
+  float: left;
+}
+.next {
+  float: right;
+}

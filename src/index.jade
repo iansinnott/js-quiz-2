@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title JS Quiz
+    link(href='/index.css', rel='stylesheet', type='text/css')
+  body
+
+    #quiz.container
+
+      //- Populated by script
+      .progress
+
+      //- Populated by script
+      form#question
+        h2.question
+
+      fieldset.controls
+        button.back= '<< Back'
+        button.next= 'Next >>'
+        button.large.reset Reset
+
+    footer
+      p.copy.small &copy; Ian Sinnott 2015
+
+    script(src='/index.js')
